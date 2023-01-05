@@ -2,6 +2,7 @@
     background: var(--anzhiyu-main);
     transition: 0.3s;
   }
+
   
   #nav-totop:hover .totopbtn i {
     opacity: 1;

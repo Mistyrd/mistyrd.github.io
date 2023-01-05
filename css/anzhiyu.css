@@ -1,12 +1,8 @@
 /* 颜色 */
 :root {
   --anzhiyu-theme-op: #4259ef23;
-  --anzhiyu-gray-op: #9999992b;
-  --anzhiyu-theme-top: var(--anzhiyu-theme);
   --anzhiyu-white: #fff;
-  --anzhiyu-white-op: rgba(255, 255, 255, 0.2);
   --anzhiyu-black: #000;
-  --anzhiyu-black-op: rgba(0, 0, 0, 0.2);
   --anzhiyu-none: rgba(0, 0, 0, 0);
   --anzhiyu-gray: #999999;
   --anzhiyu-yellow: #ffc93e;
@@ -22,7 +18,6 @@
   --anzhiyu-shadow-red: 0 8px 12px -3px #ee7d7936;
   --anzhiyu-shadow-green: 0 8px 12px -3px #87ee7936;
   --anzhiyu-shadow-border: 0 8px 16px -4px #2c2d300c;
-  --anzhiyu-shadow-blackdeep: 0 2px 16px -3px rgba(0, 0, 0, 0.15);
   --anzhiyu-logo-color: linear-gradient(215deg, #4584ff 30%, #ff7676 70%);
   --style-border: 1px solid var(--anzhiyu-card-border);
   --anzhiyu-blue-main: #3b70fc;
@@ -30,17 +25,14 @@
   --style-border-dashed: 1px dashed var(--anzhiyu-theme-op);
   --style-border-avatar: 4px solid var(--anzhiyu-background);
   --style-border-always: 1px solid var(--anzhiyu-card-border);
-  --style-border-none: 1px solid transparent;
   --anzhiyu-white-acrylic1: #fefeff !important;
   --anzhiyu-white-acrylic2: #fcfdff !important;
   --anzhiyu-black-acrylic2: #08080a !important;
   --anzhiyu-black-acrylic1: #0b0b0e !important;
-  --anzhiyu-main-none: #b8b8b800 !important;
 }
 
 [data-theme="light"] {
   --anzhiyu-theme: #3b70fc;
-  --anzhiyu-theme-deep: #1856fb;
   --anzhiyu-theme-op: #4259ef23;
   --anzhiyu-blue: #3b70fc;
   --anzhiyu-red: #d8213c;
@@ -59,18 +51,16 @@
   --anzhiyu-card-btn-bg: #edf0f7;
   --anzhiyu-post-blockquote-bg: #fafcff;
   --anzhiyu-post-tabs-bg: #f2f5f8;
-  --anzhiyu-secondbg: #f1f3f8;
+  --anzhiyu-secondbg: #edf0f7;
   --anzhiyu-shadow-nav: 0 5px 12px -5px rgba(102, 68, 68, 0.05);
   --anzhiyu-card-bg: #fff;
   --anzhiyu-shadow-lightblack: 0 5px 12px -5px rgba(102, 68, 68, 0);
   --anzhiyu-shadow-light2black: 0 5px 12px -5px rgba(102, 68, 68, 0);
-  --anzhiyu-card-border: #e3e8f7;
+  --anzhiyu-card-border: #c0c6d8;
 }
 
 [data-theme="dark"] {
-  --global-bg: #191919;
   --anzhiyu-theme: #0084ff;
-  --anzhiyu-theme-deep: #0076e5;
   --anzhiyu-theme-op: #0084ff23;
   --anzhiyu-blue: #0084ff;
   --anzhiyu-red: #ff3842;
